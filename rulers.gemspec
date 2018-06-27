@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["284km"]
   spec.email         = ["at284km@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A Rack-based Web Framework}
+  spec.description   = %q{A Rack-based Web Framework, but with extra awesome}
+  spec.homepage      = "https://github.com/284km/rulers"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -35,4 +35,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+
+  spec.add_runtime_dependency "rack"
 end
