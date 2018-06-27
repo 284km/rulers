@@ -1,4 +1,5 @@
 require "rulers/version"
+require 'rulers/array'
 
 module Rulers
   class Application
@@ -7,7 +8,7 @@ module Rulers
       [
         200,
         {'Content-Type' => 'text/html'},
-        ["Hello from Ruby on Rulers!"]
+        ["Hello from Ruby on Rulers! #{[1,2,3].hello}"]
       ]
     end
   end
