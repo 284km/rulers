@@ -3,6 +3,7 @@ require 'rulers/array'
 require 'rulers/routing'
 require 'rulers/util'
 require 'rulers/dependencies'
+require 'rulers/controller'
 
 module Rulers
   class Application
